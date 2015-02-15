@@ -44,6 +44,7 @@ GEM
     minitest (5.5.1)
     multi_json (1.10.1)
     multi_xml (0.5.5)
+    pg (0.18.1)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -72,6 +73,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord
   grape
+  pg
   pry
   rake
   redis
